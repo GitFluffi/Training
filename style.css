@@ -131,3 +131,92 @@ main {
     width: 678px;
     height: 968px;
 }
+
+.about-page {
+    background-color: #ffff;
+    height: 836px;
+}
+
+.about-title {
+    padding-top: 134px;
+    padding-left: 460px;
+    margin-bottom: 152px;
+    font-size: 64px;
+    line-height: 59px;
+    font-weight: 700;
+    color: #023C22;
+}
+
+.about-wrappers {
+    display: flex;
+    padding-left: 188px;
+    text-align: center;
+}
+
+.about-wrapper-first{
+    display: flex;
+    margin-right: 243px;
+}
+
+.about-wrapper-second{
+    display: flex;
+    
+}
+
+.about-container-one {
+    margin-right: 174px;
+}
+
+.about-container-two {
+
+}
+
+.about-container-three {
+    margin-right: 185px;
+}
+
+.about-container-four {
+    
+}
+
+.about-description-wrappers {
+    padding-top: 68px;
+    padding-left: 193px;
+    display: flex;
+    text-align: center;
+    color: #023C22;
+}
+
+.about-description-first {
+    display: flex;
+    margin-right: 255px;
+}
+
+.about-description-second {
+    display: flex;
+}
+
+.about-description-one, .about-description-two, .about-description-three, .about-description-four {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;   
+}
+
+.about-description-one {
+    margin-right: 185px;
+    width: 185px;
+}
+
+.about-description-two {
+    width: 181px;
+}
+
+.about-description-three {
+    margin-right: 190px;
+    width: 183px;
+}
+
+.about-description-four {
+    width: 200px;
+}
+
