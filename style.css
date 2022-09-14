@@ -29,11 +29,44 @@ ul {
     list-style: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 body {
     font-family: 'League Spartan', sans-serif;
+    width: 1728px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 199px;
+    width: 1728px;
+    height: 80px;
+}
+
+.header-logo {
+    margin-right: 424px;
+    width: 142px;
+    height: 27px;
+}
+
+.header-menu {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.menu-item-about {
+    margin-right: 270px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item-compaign {
+    margin-right: 275px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item-contact {
+    text-decoration: none;
+    color: #fff;
 }
