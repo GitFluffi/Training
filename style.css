@@ -32,14 +32,19 @@ ul {
 body {
     font-family: 'League Spartan', sans-serif;
     width: 1728px;
+    background-color: #217851;
 }
 
-header {
+.header-wrapper {
     display: flex;
     align-items: center;
     padding-left: 199px;
     width: 1728px;
     height: 80px;
+}
+
+main {
+    display: flex;
 }
 
 .header-logo {
@@ -69,4 +74,60 @@ header {
 .menu-item-contact {
     text-decoration: none;
     color: #fff;
+}
+
+.main-page-container {
+    padding-top: 361px;
+    padding-left: 194px;
+}
+
+.main-page-title {
+    margin-bottom: 79px;
+    font-size: 64px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffff;
+    width: 500px;
+}
+
+.main-page-subtitle {
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 542px;
+    color: #ffff;
+}
+
+.main-page-button {
+    display: flex;
+    
+}
+
+.text-button {
+    width: 261px;
+    height: 82px;
+    font-size: 24px;
+    line-height: 82px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: #ffff;
+    background-color: #DB3131;
+}
+
+.main-page-img-container {
+    position: relative;
+    width: 864px;
+    height: 1177px;
+    background-color: #EDB103;
+    margin-left: 177px;
+}
+
+.main-page-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 678px;
+    height: 968px;
 }
