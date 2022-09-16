@@ -36,11 +36,13 @@ body {
 }
 
 .header-wrapper {
+    position: absolute;
     display: flex;
     align-items: center;
     padding-left: 199px;
     width: 1728px;
     height: 80px;
+    z-index: 1;
 }
 
 main {
